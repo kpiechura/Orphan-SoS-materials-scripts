@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 310f4a05e278ad34687af58f1da7aafa
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Tekstura: {fileID: 2800000, guid: 1d003f46f6dd16845acb04026f6bd9c4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

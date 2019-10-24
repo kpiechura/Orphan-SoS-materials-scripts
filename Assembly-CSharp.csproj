@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6CDD8CF9-1A59-501E-5037-DC1C37BD8A1A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_LINUX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Unity 3D/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Unity 3D/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Skrypty\AI.cs" />
+     <Compile Include="Assets\Skrypty\AI_Dis_Graph2.cs" />
+     <Compile Include="Assets\Skrypty\AI_Dis_Graph3.cs" />
+     <Compile Include="Assets\Skrypty\AI_Disable_Graph.cs" />
+     <Compile Include="Assets\Skrypty\Active_OBJ.cs" />
+     <Compile Include="Assets\Skrypty\Active_Trigger.cs" />
+     <Compile Include="Assets\Skrypty\Anim_Use.cs" />
+     <Compile Include="Assets\Skrypty\AudioClip_Trigger.cs" />
+     <Compile Include="Assets\Skrypty\Back_To_Menu.cs" />
+     <Compile Include="Assets\Skrypty\Change_Fog.cs" />
+     <Compile Include="Assets\Skrypty\Chapter2_SCR.cs" />
+     <Compile Include="Assets\Skrypty\Chapter4_SCR.cs" />
+     <Compile Include="Assets\Skrypty\Chapter_3_SCR.cs" />
+     <Compile Include="Assets\Skrypty\Chapter_Scrpit.cs" />
+     <Compile Include="Assets\Skrypty\CheckPos2.cs" />
+     <Compile Include="Assets\Skrypty\Check_Position.cs" />
+     <Compile Include="Assets\Skrypty\Checking_Pos_Y.cs" />
+     <Compile Include="Assets\Skrypty\Dead_Screen_Script.cs" />
+     <Compile Include="Assets\Skrypty\Dead_Script2.cs" />
+     <Compile Include="Assets\Skrypty\Destroy.cs" />
+     <Compile Include="Assets\Skrypty\Destroy_Big_Door.cs" />
+     <Compile Include="Assets\Skrypty\Double_Tap.cs" />
+     <Compile Include="Assets\Skrypty\Dzwiek_Niszcz.cs" />
+     <Compile Include="Assets\Skrypty\Easter_Start.cs" />
+     <Compile Include="Assets\Skrypty\EmptyObject_for_Other.cs" />
+     <Compile Include="Assets\Skrypty\Enable_Graph.cs" />
+     <Compile Include="Assets\Skrypty\Enabled.cs" />
+     <Compile Include="Assets\Skrypty\End_Game_SCR.cs" />
+     <Compile Include="Assets\Skrypty\Extras_View.cs" />
+     <Compile Include="Assets\Skrypty\FPC_Pos.cs" />
+     <Compile Include="Assets\Skrypty\False_Table_Print.cs" />
+     <Compile Include="Assets\Skrypty\Forum.cs" />
+     <Compile Include="Assets\Skrypty\Get_3_Keys.cs" />
+     <Compile Include="Assets\Skrypty\IF_keyTrue.cs" />
+     <Compile Include="Assets\Skrypty\Keys_Check_Screamer.cs" />
+     <Compile Include="Assets\Skrypty\Krok.cs" />
+     <Compile Include="Assets\Skrypty\L1_Check.cs" />
+     <Compile Include="Assets\Skrypty\L1_Screamer.cs" />
+     <Compile Include="Assets\Skrypty\L1_Screamer_First.cs" />
+     <Compile Include="Assets\Skrypty\L1_ZZZ.cs" />
+     <Compile Include="Assets\Skrypty\LCK_SCREAM.cs" />
+     <Compile Include="Assets\Skrypty\Lev4_Lock_Move.cs" />
+     <Compile Include="Assets\Skrypty\Loading_View.cs" />
+     <Compile Include="Assets\Skrypty\Lock_Collider.cs" />
+     <Compile Include="Assets\Skrypty\Lock_End_Move.cs" />
+     <Compile Include="Assets\Skrypty\Lock_Move.cs" />
+     <Compile Include="Assets\Skrypty\Lock_Move_End.cs" />
+     <Compile Include="Assets\Skrypty\Menu_View.cs" />
+     <Compile Include="Assets\Skrypty\Modified_Print_Picture_Scr.cs" />
+     <Compile Include="Assets\Skrypty\New_Print_Image.cs" />
+     <Compile Include="Assets\Skrypty\Nie_Niszcz_Obiektu.cs" />
+     <Compile Include="Assets\Skrypty\OnTriggerEaster.cs" />
+     <Compile Include="Assets\Skrypty\On_Enter.cs" />
+     <Compile Include="Assets\Skrypty\Only_Destroy.cs" />
+     <Compile Include="Assets\Skrypty\Open_Door.cs" />
+     <Compile Include="Assets\Skrypty\Picture_Check.cs" />
+     <Compile Include="Assets\Skrypty\Ping_Var.cs" />
+     <Compile Include="Assets\Skrypty\Play.cs" />
+     <Compile Include="Assets\Skrypty\Play_Anim.cs" />
+     <Compile Include="Assets\Skrypty\Play_OnLevelSound.cs" />
+     <Compile Include="Assets\Skrypty\Play_Sound1.cs" />
+     <Compile Include="Assets\Skrypty\Play_Time.cs" />
+     <Compile Include="Assets\Skrypty\Play_sound.cs" />
+     <Compile Include="Assets\Skrypty\Present_Destroy.cs" />
+     <Compile Include="Assets\Skrypty\Presents_1_view.cs" />
+     <Compile Include="Assets\Skrypty\Presents_View.cs" />
+     <Compile Include="Assets\Skrypty\PressAnyKey.cs" />
+     <Compile Include="Assets\Skrypty\Print2_Pages.cs" />
+     <Compile Include="Assets\Skrypty\Print_Only_Image.cs" />
+     <Compile Include="Assets\Skrypty\Print_Picture.cs" />
+     <Compile Include="Assets\Skrypty\Przelacznik.cs" />
+     <Compile Include="Assets\Skrypty\Random_Pos.cs" />
+     <Compile Include="Assets\Skrypty\Random_Pos_Z.cs" />
+     <Compile Include="Assets\Skrypty\Random_Z.cs" />
+     <Compile Include="Assets\Skrypty\Render_false.cs" />
+     <Compile Include="Assets\Skrypty\Rotate_Object.cs" />
+     <Compile Include="Assets\Skrypty\Running_For_Lev1.cs" />
+     <Compile Include="Assets\Skrypty\Running_Script.cs" />
+     <Compile Include="Assets\Skrypty\Scream_Print.cs" />
+     <Compile Include="Assets\Skrypty\Screamer_New.cs" />
+     <Compile Include="Assets\Skrypty\Set_View_Obj.cs" />
+     <Compile Include="Assets\Skrypty\Show_All_Pic.cs" />
+     <Compile Include="Assets\Skrypty\Show_End_Screen2.cs" />
+     <Compile Include="Assets\Skrypty\Show_End_Screens.cs" />
+     <Compile Include="Assets\Skrypty\Show_For_Key.cs" />
+     <Compile Include="Assets\Skrypty\Show_Key1.cs" />
+     <Compile Include="Assets\Skrypty\Show_Key2.cs" />
+     <Compile Include="Assets\Skrypty\Show_Key3.cs" />
+     <Compile Include="Assets\Skrypty\Sing_Key1.cs" />
+     <Compile Include="Assets\Skrypty\Sing_Key2.cs" />
+     <Compile Include="Assets\Skrypty\Sing_Key_ALL.cs" />
+     <Compile Include="Assets\Skrypty\Sleep_Load.cs" />
+     <Compile Include="Assets\Skrypty\Sound_On_Start.cs" />
+     <Compile Include="Assets\Skrypty\Test.cs" />
+     <Compile Include="Assets\Skrypty\Trigger_Lev2.cs" />
+     <Compile Include="Assets\Skrypty\Trigger_Sing.cs" />
+     <Compile Include="Assets\Skrypty\Two_Sounds.cs" />
+     <Compile Include="Assets\Skrypty\Variables_Ckeck.cs" />
+     <Compile Include="Assets\Skrypty\WEB_Countdown.cs" />
+     <Compile Include="Assets\Skrypty\Waiting.cs" />
+     <Compile Include="Assets\Skrypty\Wstep_Any.cs" />
+     <Compile Include="Assets\Skrypty\Wstep_Dest1.cs" />
+     <Compile Include="Assets\Skrypty\Wstep_Niszcz.cs" />
+     <Compile Include="Assets\Skrypty\Wstep_Script.cs" />
+     <Compile Include="Assets\Skrypty\wstep1.cs" />
+     <Compile Include="Assets\Skrypty\wstep2.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Sceny\Cienie.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Inne\POS.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B09DD2D4-B024-05A7-94EB-D13B06275E56}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{FAFBEB7D-86AC-8909-19C5-A742D74D9528}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
